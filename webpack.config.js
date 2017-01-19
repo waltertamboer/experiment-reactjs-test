@@ -1,9 +1,10 @@
 var config = {
-    entry: './jsx/main.js',
+    entry: {
+        main: './jsx/main.js'
+    },
     output: {
-        contentBase: './public/',
         path: './',
-        filename: 'js/index.js',
+        filename: './public/js/index.js',
     },
     devServer: {
         contentBase: "./public/",
