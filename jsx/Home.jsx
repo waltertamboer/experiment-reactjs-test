@@ -83,8 +83,6 @@ class Home extends React.Component {
         ReactDOM.findDOMNode(paragraph).style.color = 'green';
 
         this.forceUpdate();
-
-        this.props.history.push('/contact');
     };
 
     render() {
